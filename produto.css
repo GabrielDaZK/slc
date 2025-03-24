@@ -1,0 +1,30 @@
+header {
+    background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
+}
+.center {
+    text-align: center;
+}
+
+u1{color: rgb 255,355,255}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+nav img {
+    width: 150px;
+    height: 15px;
+    border-radius: 30%;
+}
+#logo{
+    width: 250px;
+}
