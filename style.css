@@ -1,12 +1,104 @@
-main{
-    background-color: cadetblue;
-}
-body {
+header {
     background-color: blue;
+    padding: 20px;
+    margin: 20px;
+    border: 20px;
 }
-p {
-    color: tomato;
+.center {
+    text-align: center;
 }
-#banner{
-    width: 100%;
+
+u1{color: rgb 255,355,255}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+nav a:hover {
+    color: rgb(25, 198, 80);
+    text-decoration: underline;
+}
+nav img {
+    width: 150px;
+    height: 15px;
+    border-radius: 30%;
+}
+#logo{
+    width: 250px;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+.produto {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produto li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 0;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.produto li:hover {
+    border-color: rgb(214, 172, 21);
+}
+
+.produto li:active {
+    border-color: rgb(164, 11, 11);
+}
+
+.produto li:hover h2{
+    font-size: 34px;
+    color: purple;
+}
+
+.produto h2 {
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.produto-descricao {
+    font-size: 18px;
+
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(49, 192, 144);
+    padding: 40px 0;
+}
+
+footer img{
+    width: 200px;
+}
+
+.copyright {
+    color: #000000;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
